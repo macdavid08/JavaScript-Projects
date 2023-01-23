@@ -1,0 +1,258 @@
+body {
+    width: 100%;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#counter {
+    width: 80%;
+    padding: 30px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 200px;
+    padding: 30px 40px;
+     border-radius: 10px;
+    text-align: center;
+    background-color: rgba(37, 75, 231, 0.2);
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+button.increase-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+button.save-btn {
+    margin-top: 10px;
+    padding: 10px 40px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+/* button.del-btn {
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+} */
+
+
+h2{
+    margin: 0 auto;
+    width: 50px;
+    height: 30px;
+    background-color: whitesmoke;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.scoreboard {
+    width:80% ;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.scoreboard-container {
+    margin: 0 auto;
+    width: 35%;
+    background-color: #1B244A;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.home, .guest {
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+.home h3, .guest h3 {
+    font-size: 30px;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txt {
+    position: relative;
+    width: 70px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #080001;
+    
+}
+
+.txt p {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    top: 10px;
+    left: 30px;
+    color: #F94F6D;
+    font-size: 24px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px 6px;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.blackJack {
+    width: 80%;
+    padding: 10px 0;
+    margin:0;
+}
+.blackjackBody {
+    width: 35%;
+    padding: 20px 10px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(2, 91, 2) ;
+    border-radius: 7px;
+    color: white;
+}
+
+.blackjackBody h3 {
+    margin: 0;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.start {
+    padding: 10px 30px;
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.draw {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(11, 3, 122);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p.result {
+    font-size: 13px;
+}
+
+.chrome-extension {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.chromeCont {
+    width: 80%;
+    padding: 30px 20px;
+    background-color: #fdedfa;
+}
+
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 3px;
+    border: 1px solid #5f9341;
+    border-radius: 3px;
+}
+
+.chromeCont button {
+    display: inline;
+}
+
+.saveInput, .tab {
+    margin: 0;
+    margin-top: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #5f9341;
+    color: white;
+    cursor: pointer;
+}
+
+.delAll {
+    margin: 0;
+    margin-top: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #5f9341;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    color: #5f9341;
+    cursor: pointer;
+}
+
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #5f9341;
+}
